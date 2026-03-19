@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Products</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<div class="products">
+  <div class="product">
+    <h3>Shoes</h3>
+    <p>₹999</p>
+    <button onclick="addToCart('Shoes', 999)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>T-Shirt</h3>
+    <p>₹499</p>
+    <button onclick="addToCart('T-Shirt', 499)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Watch</h3>
+    <p>₹1999</p>
+    <button onclick="addToCart('Watch', 1999)">Add to Cart</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
